@@ -7,7 +7,7 @@ function Landing(){
     <div className='bg-[#141111f5] h-full w-full'>
         <div className='flex flex-row justify-between'>
         <div>
-        <h1 className='text-4xl font-semibold flex items-center px-[12px] py-[8px]'><span className='text-transparent bg-gradient-to-r from-blue-600 to-pink-500 bg-clip-text'>GCUBE</span>
+        <h1 className='text-4xl font-semibold flex items-center px-[12px] py-[8px]'><span onClick={()=>{navigate("/")}} className='text-transparent cursor-pointer bg-gradient-to-r from-blue-600 to-pink-500 bg-clip-text'>GCUBE</span>
         </h1>
         </div>
         <div className='flex items-center text-white'>
