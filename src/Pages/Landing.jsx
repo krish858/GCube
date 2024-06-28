@@ -1,5 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+
+
 function Landing(){
     const navigate = useNavigate();
     return(
@@ -15,6 +17,9 @@ function Landing(){
             <span onClick={()=>{navigate('/explore')}} className='text-2xl hover:text-blue-600 mr-[15px] cursor-pointer flex items-center'><ion-icon name="compass-outline"></ion-icon>Explore</span>
             <span onClick={()=>{navigate('/login')}} className='text-2xl hover:text-blue-600 mr-[25px] cursor-pointer flex items-center'><ion-icon name="log-in-outline"></ion-icon>Login</span>
         </div>
+        </div>
+        <div>
+            
         </div>
     </div>
     </>
